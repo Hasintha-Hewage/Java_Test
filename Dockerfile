@@ -1,5 +1,5 @@
 # Use an official OpenJDK image to run Java
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk-jammy
 
 # Set working directory inside the container
 WORKDIR /app
